@@ -1,6 +1,6 @@
 {
   "name": "@staltz/with-profunctor-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React HOC for state management with profunctor lenses",
   "main": "index.js",
   "typings": "index.d.ts",
