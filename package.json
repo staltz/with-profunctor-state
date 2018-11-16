@@ -1,0 +1,31 @@
+{
+  "name": "@staltz/with-profunctor-state",
+  "version": "1.0.0",
+  "description": "React HOC for state management with profunctor lenses",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "test": "tape test.js",
+    "prepublishOnly": "npm run compile"
+  },
+  "author": "Andre Staltz <contact@staltz.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/staltz/with-profunctor-state.git"
+  },
+  "dependencies": {
+    "@types/react": "16.7.x",
+    "react": "16.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "tape": "^4.8.0",
+    "typescript": "3.1.x",
+    "react-test-renderer": "16.6.3"
+  }
+}
