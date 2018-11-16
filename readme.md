@@ -14,7 +14,7 @@ See also [@staltz/**use**-profunctor-state](https://github.com/staltz/use-profun
 
 Suppose your app handles temperatures in Fahrenheit, but one component works only with Celsius. You can create a conversion layer between those two with `promap(get, set)`.
 
-Open this also in a [CodeSandbox](https://codesandbox.io/s/3vz5vl5p5).
+Open this also in a [CodeSandbox](https://codesandbox.io/s/0yy62jrjkw).
 
 ```js
 const initialState = {fahrenheit: 70, other: {}}
