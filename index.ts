@@ -50,7 +50,7 @@ export function withProfunctorState<S = any>(component: any, initial: S) {
     public render() {
       const {props, prof} = this;
       prof.state = this.state;
-      return createElement(component, {props, prof});
+      return createElement(component, {...props, ...prof});
     }
   };
   WPS.displayName =
